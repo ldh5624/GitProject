@@ -3,6 +3,7 @@ package edu.android.gitproject;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Button;
 
 import org.w3c.dom.Text;
 
@@ -14,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView textView = findViewById(R.id.textView);
+        Button button=findViewById(R.id.button);
     }
 }
