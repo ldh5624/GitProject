@@ -10,14 +10,14 @@ import org.w3c.dom.Text;
 public class MainActivity extends AppCompatActivity {
     
     private TextView textView;
-    private Button button;
+//    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         textView = findViewById(R.id.textView);
-        button=findViewById(R.id.button);
+        Button button=findViewById(R.id.button);
         
         
     }
